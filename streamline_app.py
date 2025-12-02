@@ -31,9 +31,9 @@ if page == '🏠 Home':
   col1, col2, col3 = st.columns(3)
 
   with col1:
-      st.metric('GPA', '3.8', '📚')
+      st.metric('GPA', '3.2', '📚')
   with col2:
-      st.metric('Projects', '5', '💻')
+      st.metric('Projects', '4', '💻')
   with col3:
       st.metric('Skills', '10+', '🚀')
 
@@ -44,14 +44,13 @@ if page == '🏠 Home':
   with col1:
     st.subheader('Welcome to my digital space!👋')
     st.write('''
-                I am a Computer Information Systems student passionate about web development and emerging technologies. Currently learning
-                HTML, CSS, JavaScript, and Python to build innovative solutions.
-            
+                I am an Accounting major with a strong interest in financial analysis, business strategy, and emerging financial technologies. 
+               I am currently developing my skills in financal reportin, managerial accounting, and data driven decison making.
                 🎯 **Current Focus:** Building interactive web applications with Streamlit
             
                 📚 **Currently Learning:** Internet and Emergin Technologies (CIS 211)
             
-                🌱 **Fun Fact:** I can solve a Rubik's cube in under 2 minutes!
+                🌱 **Fun Fact:** I have won 3 local yughio tournamnts!
             ''')
   with col2:
     # Placeholder for image
@@ -66,20 +65,20 @@ elif page == '🤠 About':
 
   with st.expander('2025 - Present: Medgar Evers College'):
     st.write('''
-                - Major: Computer Information Systems
+                - Major: Accounting
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: Track Team, Volleyball Team, Hackathon participant
+                - Activities: Dungeons and dragons game group , creates music, Member of book club
             ''')
 
-  with st.expander('2023 - 2025: NYC Museum School'):
+  with st.expander('2023 - 2025: Kingsborough community college'):
     st.write('''
-                - Graduated with honors
-                - AP Computer Science A (Score: 5)
-                - Founded Coding Club
+                - Graduated a member of student goverment
+                - Member of gameing club 
+                - was extremley active in the schools community
             ''')
 
   st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+  interests = ['Video games', 'Creating music', 'Photography', 'Basketball', 'Travel', 'Cooking new meals']
 
   # Display the interests in columns
   cols = st.columns(3)
@@ -99,9 +98,9 @@ elif page == '💼 Projects':
         st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png', use_column_width = True)
 
     with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+        st.subheader('Worked in a intership with black to buisness')
+        st.write('Created a discord server that allows young creatives to meet up and exchnage idea')
+        st.caption('**Technologies:** Photoshop, Bandlab, Streamlit')
 
 
   # Project 2 
@@ -146,7 +145,7 @@ elif page == '🛠 Skills':
   with col2:
     st.success('PowerPoint')
     st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
+    st.warning('Bandlab')
     
   with col3:
     st.success('Presentations')
