@@ -4,7 +4,7 @@ from datetime import datetime
 
 # Page Config
 st.set_page_config(
-  page_title ='Avinash Jairam | Portfolio',
+  page_title ='Dante Connell| Portfolio',
   page_icon='🎯',
   layout = 'wide'
 )
@@ -118,13 +118,13 @@ elif page == '🛠 Skills':
   st.title('Technical Skills')
 
   # Skills with progress bars
-  st.subheader('Programming Languages')
+  st.subheader('Profitable skills')
 
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
+    'marketing' : 85,
+    'Graphic design' : 70,
+    'Team coordination' : 70,
+    'analyzing Data' : 65,
     'Technical Writing' : 40
   }
 
@@ -192,9 +192,9 @@ elif page == '📩 Contact':
     status = st.selectbox(
         "I'm currently:",
         [
-            '👩‍💻 Coding',
+            '👩‍💻 learing new skills',
             '📕 Studying',
-            '☕ On a coffee break',
+            '☕ drinking tea',
             '🎮 Gaming',
             '😴 Sleeping'
         ]
