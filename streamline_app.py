@@ -99,8 +99,8 @@ elif page == '💼 Projects':
 
     with col2:
         st.subheader('Worked in a intership with black to buisness')
-        st.write('Created a discord server that allows young creatives to meet up and exchnage idea')
-        st.caption('**Technologies:** Photoshop, Bandlab, Streamlit')
+        st.write('Updated the marketing for this company to make it more modern and attractive for their clinets.')
+        st.caption('**Technologies:** Photoshop, Bandlab, Instagram')
 
 
   # Project 2 
@@ -109,9 +109,9 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
     with col2:
-      st.subheader('📊 Learned metohds to trcak automize tracking data using diffrent bots')
-      st.write('used bots and othr shortcuts top automize tedious task to focous on the bigger picture')
-      st.caption('**Technologies:** Python, Pandas, Plotly')
+      st.subheader('📊 created a discord for young creativtes to meet upand share ideals')
+      st.write('My discord is a saf place for young creatives to come and learn from one another and even make life long connections')
+      st.caption('**Technologies:** Instagram, Canvas, discord bots')
 
 elif page == '🛠 Skills':
   st.title('Technical Skills')
@@ -156,8 +156,8 @@ elif page == '📝 Resume':
   st.title('Resume')
 
   # Read PDF from my GitHub repository
-  with open('my_resume.pdf', "file:///Users/danteconnell/Downloads/Dante%20Connell%202025%20Resume-2.pdf"'rb') as pdf_file:
-    PDFbyte = pdf_file.read()
+  with open('my_resume.pdf', 'rb') as pdf_file:
+    PDFbyte = pdf_file.read("file:///Users/danteconnell/Downloads/Dante%20Connell%202025%20Resume-2.pdf")
   
   st.download_button(
     label ='🔻 Download Full Resume (PDF)',
