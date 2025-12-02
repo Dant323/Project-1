@@ -24,8 +24,8 @@ page = st.sidebar.radio('Go to',
 
 # Home Page
 if page == '🏠 Home':
-  st.markdown('<p class="main-header">Avinash Jairam</p>', unsafe_allow_html=True)
-  st.markdown('<p class="sub-header">Aspiring Tech Professional | Medgar Evers College</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Dante Connell</p>', unsafe_allow_html=True)
+  st.markdown('<p class="sub-header">Aspiring accountant | Medgar Evers College</p>', unsafe_allow_html=True)
 
   # Three Columns for stats
   col1, col2, col3 = st.columns(3)
@@ -109,8 +109,8 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg', use_column_width = True)
     with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
+      st.subheader('📊 Learned metohds to trcak automize tracking data using diffrent bots')
+      st.write('used bots and othr shortcuts top automize tedious task to focous on the bigger picture')
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🛠 Skills':
@@ -175,13 +175,13 @@ elif page == '📩 Contact':
     st.subheader('Send me a message.')
 
     st.write('''
-        📧 **Email:** yourname@email.com
+        📧 **Email:** connell.dante2004@gmail.com
 
-        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+        🏢 **LinkedIn:** [linkedin.com/in/Danteconnell](https://linkedin.com)
 
-        👩‍💻 **Github:** [https://github.com/avinashjairam](https://github.com)
+        👩‍💻 **Github:** [https://github.com/Danteconnell](https://github.com)
 
-        📷 **Instagram:** [@yourhandle](https://instagram.com)
+        📷 **Instagram:** [@vizon09](https://instagram.com)
 
     ''')
 
